@@ -47,7 +47,7 @@ module.exports = async (req, res) => {
     // Send email
     await transporter.sendMail({
       from: process.env.EMAIL_USER,
-      to: 'YOUR_EMAIL@gmail.com',
+      to: 'vipannikhil2022000@gmail.com',
       subject: 'New Cart Request',
       html: `
         <h2>Cart Details</h2>
