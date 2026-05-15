@@ -172,7 +172,10 @@ body{
   gap:20px;
   padding:24px 0;
   border-bottom:1px solid #e8e4df;
-  gap: 20px;
+}
+
+.product-info {
+    padding-left: 20px;
 }
 
 .product-item:last-child{
