@@ -297,7 +297,7 @@ body{
       are here.
     </h1>
     <p class="header-sub">
-      " ${doctor}
+      "${doctor}"
     </p>
     <p class="header-sub">
       Personalised recommendations, just for you.
