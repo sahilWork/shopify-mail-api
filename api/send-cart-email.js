@@ -19,7 +19,7 @@ module.exports = async (req, res) => {
 
   try {
 
-    const { email, link, products } = req.body;
+    const { email, link, doctor, products } = req.body;
 
     const transporter = nodemailer.createTransport({
       host: 'smtp.gmail.com',
@@ -296,7 +296,9 @@ body{
       <em>curated picks</em><br>
       are here.
     </h1>
-
+    <p class="header-sub">
+      " ${doctor}
+    </p>
     <p class="header-sub">
       Personalised recommendations, just for you.
     </p>
