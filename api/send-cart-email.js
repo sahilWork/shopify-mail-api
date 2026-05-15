@@ -32,7 +32,7 @@ module.exports = async (req, res) => {
     });
 
     const productsHTML = products.map(product => `
-      <div class="product-item">
+      <div class="product-item" style="gap: 20px;">
 
         <div class="product-img">
           <img src="${product.image}" alt="${product.title}" />
@@ -285,7 +285,7 @@ body{
 <div class="email-wrapper">
 
   <div class="header">
-    <div class="logo">Wellora Health</div>
+    <div class="logo">Advanced Dermatology</div>
 
     <h1>
       Your doctor's<br>
