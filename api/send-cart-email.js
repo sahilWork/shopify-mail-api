@@ -19,7 +19,7 @@ module.exports = async (req, res) => {
 
   try {
 
-    const { email, link, customerName, products } = req.body;
+    const { email, link, products } = req.body;
 
     const transporter = nodemailer.createTransport({
       host: 'smtp.gmail.com',
@@ -304,7 +304,7 @@ body{
 
   <div class="intro">
     <p>
-      Hi <strong>${customerName || 'Customer'}</strong>,
+      Hi,
       your care team has handpicked a few products tailored
       to your health plan.
     </p>
